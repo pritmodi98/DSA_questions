@@ -5,11 +5,11 @@ function maxSum(arr) {
         second=arr[0]
     }
     for (let i = 2; i < arr.length; i++) {
-        if (arr[i]>first) {
+        if (arr[i]>=first) {
             second=first
             first=arr[i]
         }
-        else if (arr[i]>second && arr[i]!==first) {
+        else if (arr[i]>second) {
             second=arr[i]
         }
         
