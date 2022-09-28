@@ -37,3 +37,4 @@ while (ptr1<arr1.length || ptr2<arr2.length) {
 }
 
 console.log(res)
+
