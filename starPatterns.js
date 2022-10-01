@@ -1,4 +1,26 @@
+let n = 4,
+	i = 1;
+while (i <= n) {
+	let str = "",
+		space = n - i;
+	while (space) {
+		str += " ";
+		space--;
+	}
+	let j = 1;
+	while (j <= i) {
+		str += j + "";
+		j++;
+	}
 
+	j = i - 1;
+	while (j) {
+		str += j + "";
+		j--;
+	}
+	console.log(str);
+	i++;
+}
 
 //==================*******=================
 // let n=4,i=1
@@ -8,7 +30,7 @@
 //         str+=' '
 //         space--
 //     }
-   
+
 //     let j=n-i+1
 //     while (j) {
 //         str+='*'+''
@@ -27,7 +49,7 @@
 //         str+='*'+' '
 // 		j++;
 // 	}
- 
+
 //     let space=n-i
 //     while (space) {
 //         str+=' '
