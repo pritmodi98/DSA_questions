@@ -25,7 +25,7 @@ function isPalindrome(str) {
 	return "Yes";
 }
 
-console.log(isPalindrome("aaBBa@"));
+console.log(isPalindrome("1a2"));
 
 function isCharacter(c) {
 	if (
@@ -44,6 +44,8 @@ function lowercase(ch) {
 		return ch;
 	} else if (ch >= "A" && ch <= "Z") {
 		return ch.toLowerCase();
+	} else {
+		return ch;
 	}
 }
 
